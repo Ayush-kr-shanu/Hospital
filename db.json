@@ -1,0 +1,32 @@
+{
+    "users" :[
+        {
+            "id":1,
+            "username":"john",
+            "email":"john@mail.com",
+            "password":"password",
+            "isDoctor":false
+        },
+        {
+            "id":2,
+            "username":"james",
+            "email":"james@mail.com",
+            "password":"james",
+            "isDoctor":false
+        },
+        {
+            "id":3,
+            "username":"drsmith",
+            "email":"smith@mail.com",
+            "password":"smith",
+            "isDoctor":true
+        },
+        {
+            "id":4,
+            "username":"drjack",
+            "email":"jack@mail.com",
+            "password":"jack",
+            "isDoctor":true
+        }
+    ]
+}
