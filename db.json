@@ -1,32 +1,60 @@
 {
-    "users" :[
-        {
-            "id":1,
-            "username":"john",
-            "email":"john@mail.com",
-            "password":"password",
-            "isDoctor":false
-        },
-        {
-            "id":2,
-            "username":"james",
-            "email":"james@mail.com",
-            "password":"james",
-            "isDoctor":false
-        },
-        {
-            "id":3,
-            "username":"drsmith",
-            "email":"smith@mail.com",
-            "password":"smith",
-            "isDoctor":true
-        },
-        {
-            "id":4,
-            "username":"drjack",
-            "email":"jack@mail.com",
-            "password":"jack",
-            "isDoctor":true
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "username": "john",
+      "email": "john@mail.com",
+      "password": "password",
+      "isDoctor": false
+    },
+    {
+      "id": 2,
+      "username": "james",
+      "email": "james@mail.com",
+      "password": "james",
+      "isDoctor": false
+    },
+    {
+      "id": 3,
+      "username": "drsmith",
+      "email": "smith@mail.com",
+      "password": "smith",
+      "isDoctor": true
+    },
+    {
+      "id": 4,
+      "username": "drjack",
+      "email": "jack@mail.com",
+      "password": "jack",
+      "isDoctor": true
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "123456",
+      "isDoctor": false,
+      "id": 5
+    }
+  ],
+  "appointments":[
+    {
+      "name": "Jane Doe",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Dermatologist",
+      "experience": 10,
+      "location": "Los Angeles",
+      "date": "2023-04-05T12:00:00.000Z",
+      "slots": 2,
+      "fee": 150
+    },
+    {
+      "name": "Mark Johnson",
+      "image": "https://example.com/doctor-image.jpg",
+      "specialization": "Pediatrician",
+      "experience": 5,
+      "location": "Chicago",
+      "date": "2023-04-06T09:30:00.000Z",
+      "slots": 1,
+      "fee": 100
+    }
+  ]
 }
